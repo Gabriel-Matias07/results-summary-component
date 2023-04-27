@@ -1,0 +1,224 @@
+/* Configurações */
+
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%; /* 10px */
+  }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rasa', serif;
+    font-size: 1.6rem;   /* 16px - Logo, 1rem = 10px */
+}
+
+/* Parte superior */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 120vh;
+}
+.box-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding-top: 1.5rem;
+    width: 100%;
+    height: 35rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    background-image: linear-gradient(to top, #322CE8, #6743FF);
+    color: #ffffff;
+}
+.box-one .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 13rem;
+    height: 13rem;
+    clip-path: circle();
+    background-image: linear-gradient(to top, #4535EF, #4A25CD);
+}
+
+/* Parte inferior */
+
+.box-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+.box-two .rolls{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    width: 100%;
+    height: 100%;
+}
+.box-two .ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.box-two .rolls li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 4.5rem;
+    list-style-type: none;
+    border-radius: 0.7rem;
+    opacity: 90%;
+    font-weight: bold;
+}
+.box-two .svg{
+    display: flex;
+    align-items: center;
+    margin-left: -6rem;
+}
+.box-two .margin-li-itens-style{
+    margin-left: -14rem;
+}
+.box-two .space-number-style{
+    margin-right: -6rem;
+}
+.box-two .style-b-number{
+    opacity: 40%;
+}
+.box-two .box-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-two .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    background-color: #2F3C58;
+    color: #ffffff;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/* ID área */
+
+.box-one #h1-title-style{
+    font-size: 2rem;
+    opacity: 70%;
+}
+.box-one #p-info-style{
+    width: 60%;
+    text-align: center;
+}
+.circle #p-number-style{
+    font-size: 7rem;
+    font-weight: bold;
+    margin-bottom: -1rem;
+}
+.circle #p-number-two-style{
+    opacity: 50%;
+}
+.box-two #summary-nav{
+    width: 100%;
+}
+.box-two #h3-title-style{
+    padding: 0.5rem 0;
+}
+
+/* ID específico para cada <li> */
+
+.ul #reaction{
+    display: flex;
+    width: 100%;
+    background-color: #f0e3e1;
+}
+.ul #memory{
+    display: flex;
+    width: 100%;
+    background-color: #f1e4c4;
+}
+.ul #verbal{
+    display: flex;
+    width: 100%;
+    background-color: #bceeee;
+}
+.ul #visual{
+    display: flex; 
+    width: 100%;
+    background-color: #d1d1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.memory{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.313rem;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f1e4c4;
+    border-radius: 0.438rem;
+    opacity: 90%;
+}
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.313rem;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #bceeee;
+    border-radius: 7px;
+    opacity: 90%;
+}
+.visual{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.313rem;   
+    width: 100%;
+    padding: 10px 0;
+    background-color: #d1d1f1;
+    border-radius: 7px;
+    opacity: 90%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.813rem;
+    padding: 10px;
+    background-color: #2F3C58;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+*/
